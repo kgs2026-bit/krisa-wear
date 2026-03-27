@@ -26,7 +26,7 @@ export default function About() {
         </div>
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4">Our Story</h1>
-          <p className="text-lg max-w-2xl mx-auto">Crafting elegance since 2020</p>
+          <p className="text-lg max-w-2xl mx-auto">Crafting elegance since 2026</p>
         </div>
       </section>
 

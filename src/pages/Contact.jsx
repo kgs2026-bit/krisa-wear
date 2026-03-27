@@ -37,14 +37,6 @@ export default function Contact() {
             loop
             playsInline
           />
-          <img
-            src="/content/images/contact-bg.jpg"
-            alt="Contact us"
-            className="w-full h-full object-cover opacity-40"
-            onError={(e) => {
-              e.target.src = 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1920&h=600&fit=crop';
-            }}
-          />
         </div>
         <div className="relative z-10 text-center px-4">
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-gray-900 mb-2">Get in Touch</h1>
