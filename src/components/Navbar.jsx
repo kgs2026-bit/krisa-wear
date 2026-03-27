@@ -20,10 +20,16 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-brand-dark flex items-center justify-center rounded">
-              <span className="text-white font-bold text-lg">K</span>
-            </div>
-            <span className="font-serif text-xl font-semibold text-gray-900">
+            <img
+              src="/content/images/logo.jpeg"
+              alt="Krisa Wear"
+              className="h-8 w-auto object-contain"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.nextElementSibling.style.display = 'block';
+              }}
+            />
+            <span className="font-serif text-xl font-semibold text-gray-900 hidden">
               Krisa Wear
             </span>
           </Link>

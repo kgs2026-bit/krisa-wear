@@ -8,7 +8,16 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-white flex items-center justify-center rounded">
+              <img
+                src="/content/images/logo.jpeg"
+                alt="Krisa Wear"
+                className="h-8 w-auto object-contain"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.nextElementSibling.style.display = 'flex';
+                }}
+              />
+              <div className="w-8 h-8 bg-white flex items-center justify-center rounded hidden">
                 <span className="text-brand-dark font-bold text-lg">K</span>
               </div>
               <span className="font-serif text-xl font-semibold">Krisa Wear</span>
