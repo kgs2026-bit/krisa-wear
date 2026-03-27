@@ -38,7 +38,7 @@ export default function About() {
               Redefining Modern Women's Fashion
             </h2>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              Krisa Wear was born from a simple vision: to create a fashion brand that celebrates women's individuality while maintaining the highest standards of quality and sustainability. We believe that great style should be accessible, and that every piece you wear should make you feel confident and authentic.
+              KriSa Wear was born from a simple vision: to create a fashion brand that celebrates women's individuality while maintaining the highest standards of quality and sustainability. We believe that great style should be accessible, and that every piece you wear should make you feel confident and authentic.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
               Our journey began with a small collection of timeless pieces designed for the modern woman. Today, we continue to blend contemporary aesthetics with classic craftsmanship, offering designs that transcend seasons and trends.

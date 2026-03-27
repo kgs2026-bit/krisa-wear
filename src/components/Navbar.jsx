@@ -22,7 +22,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center gap-2">
             <img
               src="/content/images/logo.jpeg"
-              alt="Krisa Wear"
+              alt="KriSa Wear"
               className="h-8 w-auto object-contain"
               onError={(e) => {
                 e.target.style.display = 'none';
@@ -30,7 +30,7 @@ export default function Navbar() {
               }}
             />
             <span className="font-serif text-xl font-semibold text-gray-900 hidden">
-              Krisa Wear
+              KriSa Wear
             </span>
           </Link>
 

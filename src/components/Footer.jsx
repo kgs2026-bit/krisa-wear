@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <img
                 src="/content/images/logo.jpeg"
-                alt="Krisa Wear"
+                alt="KriSa Wear"
                 className="h-8 w-auto object-contain"
                 onError={(e) => {
                   e.target.style.display = 'none';
@@ -20,7 +20,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-white flex items-center justify-center rounded hidden">
                 <span className="text-brand-dark font-bold text-lg">K</span>
               </div>
-              <span className="font-serif text-xl font-semibold">Krisa Wear</span>
+              <span className="font-serif text-xl font-semibold">KriSa Wear</span>
             </div>
             <p className="text-gray-400 max-w-md">
               Premium women's fashion for the modern woman. Discover curated styles that blend elegance with contemporary trends.
@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Krisa Wear. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} KriSa Wear. All rights reserved.</p>
         </div>
       </div>
     </footer>

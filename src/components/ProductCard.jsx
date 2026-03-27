@@ -4,7 +4,7 @@ export default function ProductCard({ product }) {
   const [isHovered, setIsHovered] = useState(false);
   const [imageLoaded, setImageLoaded] = useState(false);
 
-  const whatsappUrl = `https://wa.me/916355224284?text=${encodeURIComponent(`I'm interested in ${product.name} from Krisa Wear`)}`;
+  const whatsappUrl = `https://wa.me/916355224284?text=${encodeURIComponent(`I'm interested in ${product.name} from KriSa Wear`)}`;
 
   return (
     <div

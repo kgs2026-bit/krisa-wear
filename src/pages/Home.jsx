@@ -17,7 +17,7 @@ export default function Home() {
       <div className="fixed inset-0 bg-white flex items-center justify-center z-50">
         <div className="text-center">
           <div className="w-16 h-16 border-4 border-gray-200 border-t-brand-gold rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="font-serif text-xl text-gray-700">Krisa Wear</p>
+          <p className="font-serif text-xl text-gray-700">KriSa Wear</p>
         </div>
       </div>
     );
@@ -51,7 +51,7 @@ export default function Home() {
 
         <div className="relative z-10 text-center text-white max-w-4xl px-4">
           <h1 className="font-serif text-5xl md:text-7xl font-bold mb-4 animate-slide-up">
-            Krisa Wear
+            KriSa Wear
           </h1>
           <p className="text-lg md:text-xl mb-8 font-light animate-slide-up" style={{animationDelay: '0.2s'}}>
             Redefining modern elegance with timeless pieces that speak your style
@@ -143,7 +143,7 @@ export default function Home() {
           <div className="relative">
             <img
               src="/content/images/about-preview.jpg"
-              alt="About Krisa Wear"
+              alt="About KriSa Wear"
               className="rounded-lg shadow-xl"
               onError={(e) => {
                 e.target.src = 'https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&h=1000&fit=crop';
@@ -156,7 +156,7 @@ export default function Home() {
               Our Story
             </h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              At Krisa Wear, we believe fashion is an expression of individuality. Our curated collections blend contemporary designs with timeless elegance, offering pieces that transcend seasons and trends.
+              At KriSa Wear, we believe fashion is an expression of individuality. Our curated collections blend contemporary designs with timeless elegance, offering pieces that transcend seasons and trends.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
               Every garment is crafted with meticulous attention to detail, using premium materials to ensure comfort and quality that lasts. We're not just selling clothes—we're providing a style experience that empowers you to feel confident and authentic.
