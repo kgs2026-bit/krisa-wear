@@ -38,6 +38,16 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[85vh] flex items-center justify-center overflow-hidden bg-brand-light">
         <div className="absolute inset-0">
+          {/* Video Background */}
+          <video
+            src="/content/videos/hero-background.mp4"
+            className="w-full h-full object-cover opacity-90"
+            autoPlay
+            muted
+            loop
+            playsInline
+          />
+          {/* Image Fallback */}
           <img
             src="/content/images/hero-bg.jpg"
             alt="Hero background"

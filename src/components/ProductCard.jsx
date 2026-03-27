@@ -78,9 +78,6 @@ export default function ProductCard({ product }) {
         <p className="text-sm text-gray-600 line-clamp-2 mb-2">
           {product.description}
         </p>
-        <div className="flex items-center justify-between">
-          <span className="text-brand-gold font-semibold">{product.price}</span>
-        </div>
       </div>
     </div>
   );

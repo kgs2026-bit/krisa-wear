@@ -50,6 +50,14 @@ export default function Shop() {
       {/* Hero Banner */}
       <div className="relative h-[40vh] flex items-center justify-center bg-brand-light">
         <div className="absolute inset-0">
+          <video
+            src="/content/videos/Video-587.mp4"
+            className="w-full h-full object-cover opacity-30"
+            autoPlay
+            muted
+            loop
+            playsInline
+          />
           <img
             src="/content/images/shop-banner.jpg"
             alt="Shop banner"
@@ -99,8 +107,6 @@ export default function Shop() {
             className="px-4 py-2 border border-gray-300 rounded-full text-sm focus:outline-none focus:border-brand-gold"
           >
             <option value="newest">Newest First</option>
-            <option value="price-low">Price: Low to High</option>
-            <option value="price-high">Price: High to Low</option>
           </select>
         </div>
 

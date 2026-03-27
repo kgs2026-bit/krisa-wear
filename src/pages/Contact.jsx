@@ -29,6 +29,14 @@ export default function Contact() {
       {/* Header */}
       <section className="relative h-[40vh] flex items-center justify-center bg-brand-light">
         <div className="absolute inset-0">
+          <video
+            src="/content/videos/Video-747.mp4"
+            className="w-full h-full object-cover opacity-40"
+            autoPlay
+            muted
+            loop
+            playsInline
+          />
           <img
             src="/content/images/contact-bg.jpg"
             alt="Contact us"

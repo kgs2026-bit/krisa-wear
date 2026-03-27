@@ -6,6 +6,14 @@ export default function About() {
       {/* Hero */}
       <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
+          <video
+            src="/content/videos/Video-715.mp4"
+            className="w-full h-full object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+          />
           <img
             src="/content/images/about-hero.jpg"
             alt="About hero"
